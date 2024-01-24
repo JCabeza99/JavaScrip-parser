@@ -1,0 +1,8 @@
+function sumatorio void (int num1, int num2) {
+if (num1 != num2) {
+	res = num1 + num2;
+   		put(res);
+	} else {
+		put(iguales);
+}
+}

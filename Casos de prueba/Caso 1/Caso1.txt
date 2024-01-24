@@ -1,0 +1,8 @@
+function sumatorio int (int num1, int num2) {
+let res int;
+res = num1 + num2;
+   	put(res);
+	return res;
+}
+
+sumatorio(num1, num2);

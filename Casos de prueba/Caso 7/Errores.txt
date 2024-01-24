@@ -1,0 +1,1 @@
+Error en línea 6:17 - Se encontro un tipo que no era entero en una operación de suma de enteros.

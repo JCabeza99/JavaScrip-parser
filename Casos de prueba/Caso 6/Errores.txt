@@ -1,0 +1,1 @@
+Error en línea 2:8 - Se esperaban dos operandos del mismo tipo para realizar una asignación.

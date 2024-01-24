@@ -1,0 +1,8 @@
+let num1 int;
+let num2 string;
+let res int;
+
+function sumatorio void (int num1) {
+res = num1 + num2;
+   	put(res);
+ }

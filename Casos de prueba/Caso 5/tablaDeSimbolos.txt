@@ -1,0 +1,19 @@
+TABLA GLOBAL #0:
+	* LEXEMA : 'entrada'
+		+ Tipo : 'entero'
+		+ Despl : 0
+-------------------
+	* LEXEMA : 'fun'
+		+ Tipo : 'funcion'
+		+ numParam : 0
+			+ TipoRetorno : 'vacio'
+		+ EtiqFuncion : 'Et1_fun'
+-------------------
+	* LEXEMA : 'a'
+		+ Tipo : 'entero'
+		+ Despl : 1
+--------------------------------------------------------------
+TABLA DE LA FUNCION fun #1:
+	* LEXEMA : 'entrada'
+		+ Tipo : 'entero'
+		+ Despl : 0

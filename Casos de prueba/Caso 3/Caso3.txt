@@ -1,0 +1,6 @@
+let cad1 string;
+let cad2 string;
+
+if (cad1 != cad2) {
+	put("Distintos");
+}

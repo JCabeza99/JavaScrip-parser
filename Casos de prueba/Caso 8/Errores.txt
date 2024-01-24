@@ -1,0 +1,1 @@
+Error en línea 5:14 - Los lados de la expresión de comparación tienen que ser del mismo tipo.

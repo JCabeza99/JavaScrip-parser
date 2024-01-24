@@ -1,0 +1,7 @@
+let num int;
+let res boolean;
+num = 1;
+
+if (res != num) {
+	put “No iguales”
+}

@@ -1,0 +1,29 @@
+TABLA GLOBAL #0:
+	* LEXEMA : 'sumatorio'
+		+ Tipo : 'funcion'
+		+ numParam : 2
+			+ TipoParam0 : 0: 'entero'
+			+ TipoParam0 : 1: 'entero'
+			+ TipoRetorno : 'entero'
+		+ EtiqFuncion : 'Et1_sumatorio'
+-------------------
+	* LEXEMA : 'num1'
+		+ Tipo : 'entero'
+		+ Despl : 0
+-------------------
+	* LEXEMA : 'num2'
+		+ Tipo : 'entero'
+		+ Despl : 1
+--------------------------------------------------------------
+TABLA DE LA FUNCION sumatorio #1:
+	* LEXEMA : 'num1'
+		+ Tipo : 'entero'
+		+ Despl : 0
+-------------------
+	* LEXEMA : 'num2'
+		+ Tipo : 'entero'
+		+ Despl : 1
+-------------------
+	* LEXEMA : 'res'
+		+ Tipo : 'entero'
+		+ Despl : 2

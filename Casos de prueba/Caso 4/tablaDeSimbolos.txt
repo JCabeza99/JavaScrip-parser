@@ -1,0 +1,4 @@
+TABLA GLOBAL #0:
+	* LEXEMA : 'bool'
+		+ Tipo : 'booleano'
+		+ Despl : 0

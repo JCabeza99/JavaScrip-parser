@@ -1,0 +1,55 @@
+Axioma = P
+NoTerminales = { E T F R K C U B P S L Q X W H A E_ R_ U_ S_ B_ }
+Terminales = { + * ( ) id != ! ent cad true false = &= put get return if { } let else int boolean string function void ; , }
+Producciones = {
+	E -> R E_
+	E_ -> != R E_
+	E_ -> lambda		
+	R -> U R_
+	R_ -> + U R_
+	R_ -> lambda		
+	U -> ! U	
+	U -> ( E )
+	U -> id U_
+	U_ -> ( L )
+	U_ -> lambda
+	U -> ent
+	U -> cad
+	U -> true
+	U -> false
+	S -> id S_
+	S_ -> = E ;
+	S_ -> &= E ;
+	S_ -> ( L ) ;
+	S -> put E ;
+	S -> get id ;
+	S -> return X ;
+	L -> E Q
+	L -> lambda
+	Q -> , E Q
+	Q -> lambda
+	X -> E
+	X -> lambda
+	B -> S
+	B -> if ( E ) B_
+	B_ -> S
+	B_ -> { C } W
+	B -> let id T ;
+	W -> else { C }
+	W -> lambda
+	T -> int
+	T -> boolean
+	T -> string
+	F -> function id H ( A ) { C }
+	H -> T
+	H -> void
+	A -> T id K
+	A -> void
+	K -> , T id K
+	K -> lambda
+	C -> B C
+	C -> lambda
+	P ->  B P
+	P ->  F P	
+	P -> lambda	
+}    

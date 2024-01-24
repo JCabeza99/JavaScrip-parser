@@ -1,0 +1,8 @@
+TABLA GLOBAL #0:
+	* LEXEMA : 'cad1'
+		+ Tipo : 'cadena'
+		+ Despl : 0
+-------------------
+	* LEXEMA : 'cad2'
+		+ Tipo : 'cadena'
+		+ Despl : 64

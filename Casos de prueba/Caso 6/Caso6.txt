@@ -1,0 +1,6 @@
+let bool boolean;
+bool = 1;
+
+if (bool) {
+	put a;
+}

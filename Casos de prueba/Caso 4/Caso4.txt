@@ -1,0 +1,7 @@
+let bool boolean;
+
+if (bool) {
+    put("Cierto");
+} else {
+    put("Falso");
+}

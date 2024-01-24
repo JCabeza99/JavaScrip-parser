@@ -1,0 +1,1 @@
+Error en línea 2:12 - El número leido es más grande de lo permitido. El maximo número permitido es 32767.
