@@ -1,2 +1,2 @@
-# JavaScrip-parser
+# JavaScript-parser
 A simple custom JavaScript parser build with AntLR4
